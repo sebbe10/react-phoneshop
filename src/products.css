@@ -1,0 +1,47 @@
+body {
+  background-color: gray;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.product p {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 15px;
+  color: black;
+}
+
+.addToCart {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+.addToCart:hover {
+  cursor: pointer;
+  background-color: darkgray;
+  border: none;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}

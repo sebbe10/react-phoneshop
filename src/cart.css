@@ -1,0 +1,54 @@
+.theInfoInCart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.totalCost {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.singleCartItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.singleCartItem img {
+  width: 200px;
+  height: 200px;
+}
+
+.singleCartItem input,
+.deleteInCart,
+.addInCart {
+  width: 50px;
+  text-align: center;
+}
+
+.deleteInCart {
+  background-color: red;
+  color: white;
+
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.addInCart {
+  background-color: green;
+  color: white;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
